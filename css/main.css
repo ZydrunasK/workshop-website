@@ -18,6 +18,11 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.headerTwo{
+    font-size: 2rem;
+    color: black;
+
+}
 .topLine {
     font-size: 0.8em;
     background-color: #60267F;
@@ -130,7 +135,54 @@ body {
     color: #9A54BC;
     border: 2px solid #9A54BC;
     border-radius: 0.4em;
-    
 }
+.eliBtn:hover {
 
+    background-color: #9A54BC;
+    color: white;
+    border: 2px solid #9A54BC;
 
+}
+.topBrandsContainer {
+    margin-top: 100px;
+    gap: 50px;
+}
+.iconsContainer {
+    gap: 100px;
+}
+.iconsContainer img {
+    width: 100px;
+}
+.collabAppHelpContainer {
+    margin-top: 100px;
+    gap: 75px;
+}
+.mainContainer {
+    justify-content: space-between;
+}
+.leftParaContainer {
+    width: 40%;
+}
+.ButtonContainer {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    gap: 5px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.603);
+}
+.ButtonContainer button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.ButtonContainer button:hover {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #9A54BC;
+    background-color: #60267F;
+    border-radius: 5px;
+    color: white;
+}
