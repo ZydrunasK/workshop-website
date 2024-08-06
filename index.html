@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -32,7 +35,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="roboto-regular">
        
         <section class="section1 flexColumn">
             <div class="headingContainer flexColumn">
@@ -65,7 +68,7 @@
                 <img src="./img/top icons/Standard Collection 0.svg" alt="icon">
                 <img src="./img/top icons/Standard Collection 2.svg" alt="icon">
                 <img src="./img/top icons/Standard Collection 3.svg" alt="icon">
-                <img src="./img/top icons/Standard Collection 8.svg" alt="icon">
+                <img style="width: 170px;" src="./img/top icons/Standard Collection 8.svg" alt="icon">
                 <img src="./img/top icons/Standard Collection 9.svg" alt="icon">
             </div>
         </section>
@@ -81,18 +84,50 @@
                         </div>
                         
                         <div class="paraConatiner">
-                            <p> Work/Material request: Whenever a client wants to start a work, request notifications with date and time for materials and artisians will be promted through their app. </p>
-                            <p>Project Management: Work on multiple projects...see more</p>
-                            <p>Payment: Get paid for the step by step work...see more</p>
-                            <p>Tutorials: Explore the video tutorials to learn... see more</p>
+                            <p><span> Work/Material request:</span> Whenever a client wants to start a work, request notifications with date and time for materials and artisians will be promted through their app. </p>
+                            <p><span>Project Management:</span> Work on multiple projects... <span>see more</span></p>
+                            <p><span>Payment:</span> Get paid for the step by step work... <span>see more</span></p>
+                            <p><span>Tutorials:</span> Explore the video tutorials to learn... <span>see more</span></p>
                         </div>
                     </div>
 
-                    <div class="rightImgConatiner">
+                    <div class="rightImgConatiner flex">
                         <img src="./img/bigPhone.svg" alt="phone">
                     </div>
             </div>
         </section>
+
+
+        <section class="bugetContainer flexColumn">
+
+            <h2 class="headerTwo">Fastest, Safest & Budget friendly</h2>
+            <p>Managing your projects on spreadsheet  or messaging app is a time-taking and inefficient way.They can't link various <br> project data effectively at once place , thus you won't be able to avoid project cost escalation effectively .</p>
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/Fkk9DI-8el4?si=xDFHPmWfFPN-EptA&amp;start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+
+        <section class="projectsDoneContainer flexColumn">
+            <h2 class="headerTwo">Projects done on Collab</h2>
+            <div class="projectDonceCardsContainer flex">
+                <div class="card flexColumn">
+                    <img src="./img/cardPhotos/Rectangle 35.svg" alt="">
+                    <span class="projectDoneCardHeader">Builders</span>
+                    <span class="projectDoneCardNumber">100+</span>
+                </div>
+                <div class="card flexColumn">
+                    <img src="./img/cardPhotos/Rectangle 34.svg" alt="">
+                    <span class="projectDoneCardHeader">Contractors</span>
+                    <span class="projectDoneCardNumber">50+</span>
+                </div>
+                <div class="card flexColumn">
+                    <img src="./img/cardPhotos/Rectangle 21.svg" alt="">
+                    <span class="projectDoneCardHeader">Design Build Firm</span>
+                    <span class="projectDoneCardNumber">30+</span>
+                </div>
+            </div>
+        </section>
+
+
 
     </main>
 

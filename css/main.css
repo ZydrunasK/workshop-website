@@ -7,6 +7,12 @@ body * {
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -169,7 +175,7 @@ body {
     border-radius: 5px;
     padding: 5px 2px;
     gap: 5px;
-    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.603);
+    box-shadow: 0 5px 10px -5px #0000009a;
 }
 .ButtonContainer button {
     width: 50%;
@@ -185,4 +191,57 @@ body {
     background-color: #60267F;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
+}
+.paraConatiner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.paraConatiner p {
+    background-color: #F2F2F2;
+    padding: 1rem;
+}
+.paraConatiner p span{
+    font-weight: bold;
+}
+.rightImgConatiner {
+    width: 55%;
+    padding-top: 70px;
+}
+.rightImgConatiner img{
+    width: 300px;
+}
+.bugetContainer {
+    margin-top: 100px;
+    gap: 30px;
+}
+.bugetContainer p {
+    font-size: 16px;
+    text-align: center;
+}
+.projectsDoneContainer {
+    margin-top: 50px;
+    gap: 50px;
+}
+.projectDonceCardsContainer {
+    gap: 100px;
+}
+.card {
+    align-items: flex-start;
+    gap: 10px;
+}
+.card img {
+    width: 300px;
+}
+.projectDoneCardHeader {
+    font-size: 1.5rem;
+    color: #60267F;
+    margin-left: 10px;
+}
+.projectDoneCardNumber {
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
