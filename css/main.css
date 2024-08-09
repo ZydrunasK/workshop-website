@@ -327,11 +327,14 @@ body {
 }
 /* mano padaryti visi class'ai */
 .collabBottom {
+    margin-top: 200px;
     gap: 150px;
     padding: 100px 0 150px 0;
     position: relative;
+    background-color: #E2BDF21C;
 }
 .collabInfo {
+    margin-top: -170px;
     width: 250px;
     display: flex;
     justify-content: flex-start;
@@ -357,6 +360,7 @@ body {
     width: 500px;
     position: relative;
     top: 55px;
+    margin-top: -200px;
 }
 .socialMediaIcons {
     gap: 10px;
@@ -377,7 +381,6 @@ body {
 .boldPhar {
     font-weight: 500;
 }
-
 
 /* Tomo */
 .mobile{
