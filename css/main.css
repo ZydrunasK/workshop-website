@@ -356,7 +356,7 @@ body {
     flex-wrap: wrap;
     width: 500px;
     position: relative;
-    top: 65px;
+    top: 55px;
 }
 .socialMediaIcons {
     gap: 10px;
@@ -368,7 +368,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 40px;
+    gap: 30px;
 }
 .purpleLink {
     color: #60267F;
@@ -376,10 +376,4 @@ body {
 }
 .boldPhar {
     font-weight: 500;
-}
-.botLine {
-    font-size: 0.8em;
-    background-color: var(--DarkPurp);
-    text-align: center;
-    padding: 10px 0;
 }
