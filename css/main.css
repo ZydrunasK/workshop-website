@@ -444,7 +444,7 @@ margin-bottom: 60px;
     margin-top: 60px;
     color: #fff;
     background-color: #9A54BC;
-    border: none;
+    border: 1px solid #9A54BC;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
